@@ -47,11 +47,9 @@ function App() {
 	}
 
 	return (
-		// 'w-full' - width 100%, 'max-w-md' - max-width medium, 'mx-auto' - margin auto по осі X
-		// 'bg-white' - білий фон, 'rounded-xl' - заокруглені кути, 'shadow-lg' - велика тінь
 		<div className="w-full max-w-md mx-auto bg-white rounded-xl shadow-lg overflow-hidden my-12">
 			<header className="p-8 text-white text-center bg-gradient-to-r from-blue-500 to-indigo-600">
-				<h1 className="text-4xl font-bold">React Погода</h1>
+				<h1 className="text-4xl font-bold pb-5">React Погода</h1>
 				<SearchForm onSearch={handleSearch} />
 			</header>
 			<main className="p-8 text-center">
